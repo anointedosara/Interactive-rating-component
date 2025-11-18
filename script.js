@@ -19,7 +19,7 @@ for (let i = 0; i < rate.length; i++) {
         }
         rate[i].classList.add('selected')
         submit = false
-        numberSelected.innerHTML += `
+        numberSelected.innerHTML = `
         You selected ${rate[i].innerHTML} out of ${rate.length}
 `
     })
